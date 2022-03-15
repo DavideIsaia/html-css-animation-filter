@@ -142,10 +142,22 @@
     }
 }
 
-
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* soluzione 11 */
+.ex-11-icon:hover {
+    animation-name: stopped-loading;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+@keyframes stopped-loading {
+    90% {
+        transform: rotate(270deg);
+    }    
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
