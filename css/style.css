@@ -77,11 +77,37 @@
     filter: grayscale(1);
 }
 
+/* soluzione 7 */
+.ex-7-img {
+    transition: 1.5s;
+}
 
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(0.5);
+}
+
+/* soluzione 8 */
+.ex-8-img {
+    transition: 1.5s;
+}
+
+.ex-8-img:hover {
+    filter: saturate(0.5) sepia(0.5);
+    border-radius: 25px;
+}
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    /* soluzione 9 */
+    transition: 1.5s;
+}
+
+/* soluzione 9 */
+.ex-9-img:hover {
+    filter: saturate(0.5) sepia(0.5);
+    border-radius: 25px;
+    transform: scale(1.5);
 }
 
 .ex-10-icon {
